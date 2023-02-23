@@ -1,0 +1,40 @@
+.footer .box-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  padding: 1rem;
+  color: aliceblue;
+}
+
+.footer .box-container .box h3{
+  padding: .5rem 0;
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.footer .box-container .box a{
+  display: block;
+  padding: .5rem 0;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--light-color);
+  transition: all .5s;
+}
+
+.footer .box-container .box a:hover{
+  color: rgb(160, 138, 11);
+  letter-spacing: 2px;
+}
+
+.footer .credit{
+  text-align: center;
+  border-top: .1rem solid rgba(0,0,0, .1);
+  font-size: 1.5rem;
+  color: goldenrod;
+  padding: .5rem;
+  padding-top: 1.5rem;
+}
+
+.footer .credit span{
+  color: var(--green);
+}
