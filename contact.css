@@ -2,6 +2,11 @@ section {
   padding: 100px 0;
   color: antiquewhite;
 }
+*{
+  transition: all .4s linear;
+  font-family: 'Nunito', sans-serif;
+  
+}
 .title {
   position: relative;
   text-align: center;
@@ -13,8 +18,7 @@ section {
   color: antiquewhite;
 }
 body{
-  background-color: #0c0b0bf5;
-  
+  background-color: #0c0b0bf5; 
 }
 .bg{
   background-image: url("bg1.jpg");
@@ -35,7 +39,6 @@ body{
   background-color: #0e0d0c;
   display: flex;
   justify-content: center;
- 
   flex-direction: column;
 width: 50%;}
 input{

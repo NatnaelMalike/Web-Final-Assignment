@@ -36,3 +36,20 @@ searchBtn.addEventListener('click', function() {
   }
   
 });
+
+
+const form = document.querySelector('#myForm');
+form.addEventListener('submit', function() {
+  
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#email').value;
+  const number = document.querySelector('#phoneNumber').value;
+  const city = document.querySelector('#city').value;
+  const woreda = document.querySelector('#state').value;
+  const home = document.querySelector('#Street').value;
+  const comment = document.querySelector('#comment').value;
+  const payment = document.querySelector('input[name="pay"]:checked').value;
+  const formData = {name: name,email: email,number: number,city: city,woreda: woreda,home: home,comment: comment,payment: payment}
+  localStorage.setItem('formData', JSON.stringify(formData));
+  alert('Form data saved!');
+});
