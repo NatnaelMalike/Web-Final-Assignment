@@ -26,21 +26,10 @@ searchBtn.addEventListener('click', function() {
   
 });
 
-class Order {
-  constructor(name, email, number, city, woreda, home, comment, payment) {
-    this.name = name;
-    this.email = email;
-    this.number = number;
-    this.city = city;
-    this.woreda = woreda;
-    this.home = home;
-    this.comment = comment;
-    this.payment = payment;
-  }
-}
+
 const form = document.querySelector('#myForm');
-form.addEventListener('submit', function() {
-  
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
   const name = document.querySelector('#name').value;
   const email = document.querySelector('#email').value;
   const number = document.querySelector('#phoneNumber').value;
@@ -49,7 +38,7 @@ form.addEventListener('submit', function() {
   const home = document.querySelector('#Street').value;
   const comment = document.querySelector('#comment').value;
   const payment = document.querySelector('input[name="pay"]:checked').value;
-  const formData = new Order(name,email,number,city,woreda,home,comment,payment)
+  const formData = {name: name,email: email,number: number,city: city,woreda: woreda,home: home,comment: comment,payment: payment}
   localStorage.setItem('formData', JSON.stringify(formData));
   alert('Form data saved!');
 });
