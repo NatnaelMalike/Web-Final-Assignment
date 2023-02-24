@@ -28,8 +28,8 @@ searchBtn.addEventListener('click', function() {
 
 
 const form = document.querySelector('#myForm');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
+form.addEventListener('submit', function() {
+  
   const name = document.querySelector('#name').value;
   const email = document.querySelector('#email').value;
   const number = document.querySelector('#phoneNumber').value;
