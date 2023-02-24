@@ -9,37 +9,39 @@
   <title>Rating and review</title>
 </head>
 <body>
-  <div id="rating">
-    <h2>Rate this product</h2>
-    <div id="stars">
-      <span class="star" data-rating="1">&#9733;</span>
-      <span class="star" data-rating="2">&#9733;</span>
-      <span class="star" data-rating="3">&#9733;</span>
-      <span class="star" data-rating="4">&#9733;</span>
-      <span class="star" data-rating="5">&#9733;</span>
+  <div class="rev-con">
+    <div id="rating">
+      <h2>Rate Us</h2>
+      <div id="stars">
+        <span class="star" data-rating="1">&#9733;</span>
+        <span class="star" data-rating="2">&#9733;</span>
+        <span class="star" data-rating="3">&#9733;</span>
+        <span class="star" data-rating="4">&#9733;</span>
+        <span class="star" data-rating="5">&#9733;</span>
+      </div>
+      
+      <button id="submit-btn">Submit</button>
     </div>
-    <p id="rating-value"></p>
-    <button id="submit-btn">Submit</button>
+    
+    <div id="reviews">
+      <h2>Customer Reviews</h2>
+      <ul id="review-list">
+      </ul>
+    </div>
+    <div id="add-review">
+      <h2>Add a Review</h2>
+      <form id = "fo">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment"></textarea>
+        <br>
+        <button type="button" id="submit-review-btn">Submit Review</button>
+      </form>
+    </div>
   </div>
   
-  <div id="reviews">
-    <h2>Customer Reviews</h2>
-    <ul id="review-list">
-    </ul>
-  </div>
-  <div id="add-review">
-    <h2>Add a Review</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name">
-      <br>
-      <label for="comment">Comment:</label>
-      <textarea id="comment"></textarea>
-      <br>
-      <button type="button" id="submit-review-btn">Submit Review</button>
-    </form>
-  </div>
-  <a href="mailto:natnaelmalike@example.com">Send Email</a>
   <script src="review_Rating.js"></script>
 </body>
 </html>

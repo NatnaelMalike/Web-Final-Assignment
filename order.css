@@ -7,7 +7,6 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border: none;
-  
   transition: all .2s linear;
   color: rgb(187, 170, 170);
 }
@@ -36,7 +35,7 @@ width: 100%;
 }
 .menu-list-container input{
   width: 20rem;
-  border: 1px solid red;
+  
   padding: 1rem;
 }
 input{
@@ -145,4 +144,95 @@ padding: 2rem;}
 }
 .search{
   width: 45rem;
+}
+#rating,#reviews,#add-review,#fo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#stars{
+  font-size: 4rem;
+  letter-spacing: .5rem;
+}
+.rev-con button{
+  padding: .3rem .5rem;
+}
+.rev-con label{
+  font-size: 1.9rem;
+  margin: 2rem;
+}
+.rev-con{
+  margin: 3rem;
+}
+#rating h2{
+  font-size: 2.9rem;
+}
+#reviews{
+  margin: 2rem;
+}
+#add-review h2{
+font-size: 2rem;
+color: burlywood;
+}
+.max-width {
+  padding: 0 80px;
+  margin: auto;
+}
+
+
+.navbar {
+  position: sticky;
+  margin-bottom: 0 auto;
+  width: 100%;
+  z-index: 999;
+  padding: 2px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  top: 0;
+  background-color: #0c0b0bf5;
+  padding: 20px;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  text-decoration: none;
+  color: rgb(198, 204, 202);
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span {
+  color: rgb(211, 163, 5);
+}
+.logo  span:hover {
+  font-size: 45px;
+  transition: all 0.6s ease;
+}
+.navbar .menu_1 li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu_1 li a {
+  text-decoration: none;
+  display: block;
+  color: rgb(201, 197, 192);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+.navbar .menu_1 li a:hover {
+  font-size: 21px;
+  color: rgb(231, 153, 36);
+}
+.navbar.apear .menu_1 li a:hover {
+  color: #fff;
+}
+.menu-btn {
+  color: rgb(243, 214, 159);
+  font-size: 23px;
+  cursor: pointer;
+  
 }

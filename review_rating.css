@@ -1,25 +1,16 @@
-.rating {
-  display: inline-block;
-  font-size: 0;
+#rating,#reviews,#add-review,#fo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-.rating input {
-  display: none;
+#stars{
+  font-size: 3rem;
+  letter-spacing: .5rem;
 }
-
-.rating label {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  margin-right: 4px;
-  color: #e21616;
-  cursor: pointer;
+.rev-con button{
+  padding: .3rem .5rem;
 }
-
-.rating label:hover,
-.rating label:focus,
-.rating input:checked + label {
-  color: #FFD700;
+.rev-con label{
+  font-size: 1.4rem;
 }
