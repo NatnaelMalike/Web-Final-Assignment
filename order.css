@@ -24,7 +24,8 @@ body{
 width: 100%;
 }
 .survey-container{
-  padding: 3rem;
+  padding: rem;
+  
 }
 .menu-list-container{
   text-align: center;

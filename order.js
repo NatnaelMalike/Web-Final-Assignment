@@ -34,13 +34,9 @@ searchBtn.addEventListener('click', function() {
       msg.textContent = iterator.author
     }
   }
-  
 });
-
-
 const form = document.querySelector('#myForm');
-form.addEventListener('submit', function() {
-  
+form.addEventListener('submit', function() {  
   const name = document.querySelector('#name').value;
   const email = document.querySelector('#email').value;
   const number = document.querySelector('#phoneNumber').value;
