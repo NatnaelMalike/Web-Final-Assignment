@@ -1,28 +1,31 @@
+let y = document.querySelector(".display-catagory-area")
 function showDiv(text) {
+  
   var x = document.querySelector(text);
   if (x.style.display === "none") {
     x.style.display = "grid";
+    y.style.display = "block"
   } else {
     x.style.display = "none";
   }
 }
 const books = [
-  { title: 'cocktail', author: 'F. Scott Fitzgerald' },
-  { title: 'chips and dips', author: 'Harper Lee' },
-  { title: 'banoffe cake', author: 'George Orwell' },
-  { title: 'chicken', author: 'Jane Austen' },
-  { title: 'steak', author: 'J.D. Salinger' },
-  { title: 'fish', author: 'F. Scott Fitzgerald' },
-  { title: 'shrimp with pasta', author: 'Harper Lee' },
-  { title: 'shekla tebs', author: 'George Orwell' },
-  { title: 'tej', author: 'Jane Austen' },
-  { title: 'areke', author: 'J.D. Salinger' },
-  { title: 'white muffins', author: 'F. Scott Fitzgerald' },
-  { title: 'black forest', author: 'Harper Lee' },
-  { title: 'chocolate cupcake', author: 'George Orwell' },
-  { title: 'soup', author: 'Jane Austen' },
-  { title: 'chicken salad', author: 'J.D. Salinger' },
-  { title: 'doro wet', author: 'J.D. Salinger' }
+  { title: 'cocktail', author: 'Div to be Displayed' },
+  { title: 'chips and dips', author: 'Div to be Displayed' },
+  { title: 'banoffe cake', author: 'Div to be Displayed' },
+  { title: 'chicken', author: 'Div to be Displayed' },
+  { title: 'steak', author: 'Div to be Displayed' },
+  { title: 'fish', author: 'Div to be Displayed' },
+  { title: 'shrimp with pasta', author: 'Div to be Displayed' },
+  { title: 'shekla tebs', author: 'Div to be Displayed' },
+  { title: 'tej', author: 'Div to be Displayed' },
+  { title: 'areke', author: 'Div to be Displayed' },
+  { title: 'white muffins', author: 'Div to be Displayed' },
+  { title: 'black forest', author: 'Div to be Displayed' },
+  { title: 'chocolate cupcake', author: 'Div to be Displayed' },
+  { title: 'soup', author: 'Div to be Displayed' },
+  { title: 'chicken salad', author: 'Div to be Displayed' },
+  { title: 'doro wet', author: 'Div to be Displayed' }
 ];
 const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
