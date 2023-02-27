@@ -1,0 +1,16 @@
+#rating,#reviews,#add-review,#fo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#stars{
+  font-size: 3rem;
+  letter-spacing: .5rem;
+}
+.rev-con button{
+  padding: .3rem .5rem;
+}
+.rev-con label{
+  font-size: 1.4rem;
+}

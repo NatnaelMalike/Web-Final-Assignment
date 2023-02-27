@@ -1,0 +1,38 @@
+.footer-end{
+  border: 2px solid rgba(7, 7, 7, 0.952);
+  padding: 3rem 15rem;
+  background-color: rgb(22, 14, 4);
+  margin-top: 1rem;
+}
+.box-container{
+  display: flex;
+  align-items: start;
+  justify-content: space-between; 
+}
+.ft-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.5rem;
+  background-color: rgba(7, 7, 7, 0.952);
+  padding: 4rem;
+  border-radius: 1rem;
+}
+.ft-box h3{
+  font-size: 2rem;
+  color: rgb(124, 73, 6);
+}
+.ft-box a{
+  color: rgb(167, 146, 119);
+}
+footer a:hover{
+  color: aliceblue;
+  text-decoration: underline;
+}
+.credit , span{
+  font-size: large;
+  text-align: center;
+  margin-top: 3rem;
+  color: rgba(222, 184, 135, 0.76);
+}

@@ -1,0 +1,118 @@
+*{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+}
+body{
+  background-color:rgba(0, 0, 0, 0.822);
+}
+/* Navigation Part*/
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  border: 2px rgb(255, 72, 0) solid;
+  padding: .5% 2%;
+  background-color: rgb(7, 7, 7);
+}
+.navigation a{
+  color: aliceblue;
+}
+.navigation span{
+  font-size: 4rem;
+  color: coral;
+}
+.icon{
+  font-size: 5rem;
+}
+.links a{
+  margin-right: 3rem;
+  font-size: 2rem;
+}
+.cart{
+  width: 5rem;
+}
+.cart img{
+  width: 100%;
+}
+/* Main Body Part*/
+.home-bg-con{
+position: relative;
+}
+.bg-img{
+  width: 100%;
+}
+.home-txt{
+  position: absolute;
+  color: aliceblue;
+  font-size: 3rem;
+  top: 8rem;
+  width: 45%;
+  left: 10rem;
+  line-height: 5rem;
+}
+.home-txt p{
+  font-size: 7rem;
+  color: coral;
+  line-height: 8rem;
+  margin-bottom: 3rem;
+}
+.order-btn{
+  position: absolute;
+  bottom: 15rem;
+  left: 22rem;
+  padding: 1.5rem 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  background-color: rgb(223, 120, 82);
+  border-radius: 2rem;
+}
+.menu-head{
+  text-align: center;
+  font-size: 6rem;
+  padding: 2rem;
+  color: antiquewhite;
+}
+.menu-btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu-btns button{
+  font-size: 2rem;
+  background-color: rgb(223, 120, 82);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+.dish-menu{
+  margin-top: 2rem;
+ 
+}
+.dishes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  column-gap: 15rem;
+  padding: 10rem 30rem;
+  place-items: center; 
+  
+}
+.title h2{
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  color: antiquewhite;
+}
+.main-dish-menu{
+  text-align: center;
+}
+.food-pic img{
+  border-radius: 2rem;
+  width: 100%;
+}
+.food-pic{
+  object-fit: contain;
+}
