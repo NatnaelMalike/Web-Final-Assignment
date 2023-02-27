@@ -28,7 +28,7 @@ const Dishes = [
   //MainDishes
   { title: 'Pork Rindss', price: '550.00ETB' ,image:"/IMAGE/Main Dishes/Pork Rinds.jpg"},
   { title: 'Roast Chicken', price: '885.00ETB' ,image:"/IMAGE/Main Dishes/Roast Chicken.jpg"},
-  { title: 'Ribs', price: '590.00ETB',image: "/IMAGE/Main Dishes/Ribs.jpg"},
+  { title: 'Ribs', price: '590.00ETB',image:"/IMAGE/Main Dishes/Ribs.jpg"},
   { title: 'Lasagna', price: '500.00ETB' ,image:"/IMAGE/Main Dishes/Lasagna.jpg"},
   { title: 'Pork Chops', price: '860.00ETB' ,image:"/IMAGE/Main Dishes/Pork Chops.jpg"},
   //traditional
