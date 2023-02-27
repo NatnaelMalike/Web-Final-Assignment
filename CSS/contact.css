@@ -9,17 +9,19 @@
 }
 .navigation a{
   color: aliceblue;
+  text-decoration: none;
 }
 .navigation span{
   font-size: 4rem;
   color: coral;
 }
 .icon{
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 .links a{
   margin-right: 3rem;
   font-size: 2rem;
+  text-decoration: none;
 }
 .cart{
   width: 5rem;
@@ -72,7 +74,7 @@
   margin-bottom: 60px;
   padding-bottom: 20px;
   font-family: "Ubuntu", sans-serif;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 body{
   background-color: #0c0b0bf5; 

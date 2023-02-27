@@ -19,9 +19,10 @@ body{
 }
 .navigation a{
   color: aliceblue;
+  font-size: 3rem;
 }
 .navigation span{
-  font-size: 4rem;
+  font-size: 6rem;
   color: coral;
 }
 .icon{
@@ -30,6 +31,7 @@ body{
 .links a{
   margin-right: 3rem;
   font-size: 2rem;
+  text-decoration: none;
 }
 .cart{
   width: 5rem;
@@ -55,9 +57,11 @@ position: relative;
 }
 .home-txt p{
   font-size: 7rem;
+  font-weight: 600;
   color: coral;
   line-height: 8rem;
   margin-bottom: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .order-btn{
   position: absolute;
@@ -66,8 +70,12 @@ position: relative;
   padding: 1.5rem 3rem;
   font-size: 3rem;
   font-weight: 600;
-  background-color: rgb(223, 120, 82);
+  background-color: rgb(221, 100, 56);
   border-radius: 2rem;
+}
+.order-btn:hover{
+  background-color: rgb(105, 98, 98);
+  color: goldenrod;
 }
 .menu-head{
   text-align: center;
@@ -96,14 +104,12 @@ position: relative;
   grid-template-columns: 1fr 1fr;
   flex-direction: column;
   column-gap: 15rem;
-  padding: 10rem 30rem;
+  padding: 5rem 30rem;
   place-items: center; 
-  
 }
 .title h2{
   font-size: 4rem;
-  margin-bottom: 4rem;
-  margin-top: 4rem;
+  
   color: antiquewhite;
 }
 .main-dish-menu{
@@ -114,5 +120,5 @@ position: relative;
   width: 100%;
 }
 .food-pic{
-  object-fit: contain;
+ margin-bottom: 8rem;
 }
