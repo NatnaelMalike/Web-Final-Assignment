@@ -57,7 +57,7 @@ searchBtn.addEventListener('click', function() {
   const parent = document.getElementById("disp-search")
   for (const iterator of Dishes) {
     if (iterator.title.toLowerCase() === searchTerm.toLowerCase()) {
-      newFood.innerHTML =  `<div class="image"><img src=${iterator.image}></div><div class="content"><h3>${iterator.title}</h3><p class="price">${iterator.price}</p><button class="btn-dish">Add to Cart</button></div></div>`
+      newFood.innerHTML =  `<div class="image"><img src=${iterator.image}></div><div class="content"><h3>${iterator.title}</h3><p class="price">${iterator.price}</p><button class="btn-dish" >Add to Cart</button></div></div>`
       parent.appendChild(newFood)
     }
   }
